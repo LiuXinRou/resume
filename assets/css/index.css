@@ -1,0 +1,464 @@
+.personal
+{
+text-align: center;
+font-size: 30px;
+font-family: "Cascadia Code SemiBold";
+animation: personal 8s linear infinite;
+font-weight: bold;
+
+}
+.personal2
+{
+border: 2px;
+width: 100%;
+height: 50px;
+border-style: solid;
+background-color: #E8E8D0;
+margin: 0px 20px 0px 20px;
+}
+.name
+{
+float: left;
+width: 50%;
+height: 50px;
+font-size: 26px;
+animation: name 5s linear infinite;
+font-family: "Cascadia Code SemiBold";
+font-weight: bold;
+margin: 0px 20px 5px 30px;
+
+}
+.experience
+{
+float: right;
+width: 50%;
+height:600px;
+font-family: "Cascadia Code SemiBold";
+font-size: 26px;
+font-weight: bold;
+background-color:#DEDEBE;
+border: 1px;
+margin: -440px 0px 10px 25px;
+padding: 10px;
+}
+*
+{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.work
+{
+float: left;
+width: 47%;
+height:774px;
+font-family: "Cascadia Code SemiBold";
+font-size: 26px;
+font-weight: bold;
+background-color:#DEDEBE;
+border: 1px;
+margin: 5px 10px 0px 20px;
+padding: 10px;
+}
+.work p
+{
+margin:10px 10px 10px 5px;
+width: 200px;
+height: 150px;
+}
+.work h2
+{
+font-size: 18px;
+font-family: "Cascadia Code SemiBold";
+float: right;
+margin: -150px 60px 0px 250px ;
+}
+.work img
+{
+opacity: 0.6;
+width: 200px;
+height: 150px;
+float: left;
+margin: 10px 10px 12px 10px;
+background-color:#FFFFDF;
+border-radius: 20%;
+}
+.work img:hover
+{
+opacity: 1;
+box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.8);
+}
+.ability
+{
+float: right;
+width: 50%;
+height: 600px;
+font-family: "Cascadia Code SemiBold";
+font-size: 26px;
+font-weight: bold;
+background-color:#C2C287;
+border: 1px;
+margin: 10px 0px 10px 25px;
+padding: 10px 0px 0px 10px;
+}
+.silde
+{
+animation: silde 10s linear infinite;
+}
+@keyframes name
+{
+0%
+{
+transform: translateY(30%);
+}
+25%
+{
+transform: translateY(10%);
+}
+50%
+{
+transform: translateY(-20%);
+}
+75%
+{
+transform: translateY(-15%);
+}
+100%
+{
+transform: translateY(0%);
+}
+}
+@keyframes personal
+{
+0%
+{
+transform: translateX(25%);
+}
+10%
+{
+transform: translateX(20%);
+}
+25%
+{
+transform: translateX(15%);
+}
+45%
+{
+transform: translateX(10%);
+}
+65%
+{
+transform: translateX(0%);
+}
+80%
+{
+transform: translateX(-10%);
+}
+90%
+{
+transform: translateX(-15%);
+}
+100%
+{
+transform: translateX(-20%);
+}
+}
+.pic1
+{
+height: 430px;
+width: 47%;
+background-color: #C2C287;
+border-style: solid;
+border: 1px;
+font-family: "Cascadia Code SemiBold";
+font-size: 20px;
+font-weight: bold;
+margin: 10px 10px 8px 20px ;
+}
+.pic1 p
+{
+	padding: 12px 10px 10px 10px ;
+}
+.pic2 img
+{
+ float: right;
+ margin-right: 70px;
+
+}
+.pic2 img:hover
+{
+transform: rotateY(180deg);
+width: 300px;
+height: 300px;
+}
+.end
+{
+width: 100%;
+height: 150px;
+background-color:#A5A552;
+border-style: solid;
+border: 1px;
+margin: 800px 20px 0px 20px;
+display: flex; /*排版工具*/
+justify-content: center;/*主線置中*/
+align-items: center;/*支線置中*/
+flex-direction: column;/*更改主線*/
+}
+.end h2
+{
+font-size: 20px;
+font-family: "Cascadia Code SemiBold";
+}
+
+.end img
+{
+}
+.endTitle{
+	margin: 10px 0;
+}
+.phone
+{
+	margin: 15px 0;
+	display: flex;
+	align-items: center;
+}
+.container h2
+{
+	font-size: 20px;
+	font-family:"Cascadia Code SemiBold" ;
+	margin-left: 20px;
+	margin-top: 20px;
+	color:#737300;
+}
+.container h3
+{
+font-size: 20px;
+font-family: "Cascadia Code SemiBold";
+border: 5px double #000;
+width: 70px;
+float: right;
+margin-right: 70px;
+margin-top: -80px;
+text-align: center;
+}
+.container .skills{
+position: relative;
+display: flex;
+margin: 45px 220px;
+padding: 18px 10px 18px;
+background: linear-gradient(#7B7B7B 0%, #D2E9FF 20%,#EAC100);
+border-radius: 20px;
+overflow: hidden;
+border: 3px double #000;
+transition: 0.5s;
+width: 500px;
+height: 20px;
+}
+.container:hover .skills{
+opacity: 0.05;
+}
+.container .skills:hover{
+opacity: 1;
+transform: scale(1.1);
+}
+.container .skills:before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 50%;
+background:#B9B973;
+z-index: 2;
+opacity: 0.2;
+}
+.container .skills .Name{
+position: relative;
+width: 100px;
+text-align: center;
+color:#272727;
+margin-top: -8px;
+text-transform: uppercase;
+font-size: 20px;
+}
+.container .skills .value{
+position: relative;
+width: 30px;
+text-align: center;
+color: #272727;
+margin-top: -5px;
+text-transform: uppercase;
+font-size: 20px;
+}
+.container .skills .percent{
+position: relative;
+width: 200px;
+height: 16px;
+margin: 0 10px;
+border-radius: 10px;
+background: #151515;
+box-shadow: inset 0 0 10px #000;
+overflow: hidden;
+}
+.container .skills .percent .progress{
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+border-radius: 10px;
+
+box-shadow: inset 0 0 2px #000;
+animation: animate 4s infinite;
+}
+@keyframes animate
+{
+0%
+{
+width:0;
+}
+100%
+{
+width: 100;
+}
+}
+.container .skills:nth-child(2) .percent .progress{
+background: linear-gradient(45deg,#B9B973,#FFED97);
+width: 65%;
+}
+.container .skills:nth-child(3) .percent .progress{
+background: linear-gradient(45deg,#B9B973,#FFED97);
+width: 65%;
+}
+.container .skills:nth-child(4) .percent .progress{
+background: linear-gradient(45deg,#B9B973,#FFED97);
+width: 78%;
+}
+.container .skills:nth-child(5) .percent .progress{
+background: linear-gradient(45deg, #B9B973, #FFED97);
+width: 81%;
+}
+.container .skills:nth-child(6) .percent .progress{
+background: linear-gradient(45deg, #B9B973, #FFED97);
+width: 75%;
+}
+.container .skills:nth-child(7) .percent .progress{
+background: linear-gradient(45deg, #B9B973, #FFED97);
+width: 30%;
+}
+.timebox
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 580px;
+    position: relative;
+}
+.circle{
+    position: absolute;
+    /* top: 0; */
+    left: calc(50% - 5px);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border:5px pink solid;
+    background-color: #fff;
+}
+.circle1{
+    top: 90px;
+}
+.circle2{
+    top: 180px;
+}
+.circle3{
+    top: 270px;
+}
+.circle4{
+    top: 360px;
+}
+.circle5{
+    top: 450px;
+}
+
+.timeline{
+    margin: auto;
+    width: 6px;
+    height: 550px;
+    background-color: #000;
+}
+.box{
+    width:300px;
+    height: 80px;
+    background-color: #ccc;
+    border-radius: 5px;
+    position: absolute;
+}
+.box.box1{
+    top: 70px;
+    left: 150px;
+    font-size: 20px;
+    font-family: "Cascadia Code SemiBold";
+    padding-top: 20px;
+    padding-left: 40px;
+
+  }
+.box.box1 img
+{
+	width: 40px;
+	height: 40px;
+	margin: 5px 0px -12px 40px;
+}
+.box.box2{
+    top: 150px;
+    right: 150px;
+    font-size: 20px;
+    font-family: "Cascadia Code SemiBold";
+    text-align: center;
+    padding-top: 20px;
+}
+.box.box2 img
+{
+	width: 40px;
+	height: 40px;
+	margin: 5px 0px -14px -30px;
+}
+.box.box3{
+    top: 250px;
+    left: 150px;
+    font-size: 20px;
+    font-family: "Cascadia Code SemiBold";
+    text-align: center;
+    padding-top: 20px;
+}
+.box.box3 img
+{
+	width: 40px;
+	height: 40px;
+	margin: 5px 0px -14px -30px;
+}
+
+.box.box4{
+    top: 330px;
+    right: 150px;
+    font-size: 20px;
+    font-family: "Cascadia Code SemiBold";
+    text-align: center;
+    padding-top: 20px;
+}
+.box.box4 img
+{
+	width: 40px;
+	height: 40px;
+	margin: 5px 0px -14px -30px;
+}
+.box.box5{
+    top: 440px;
+    left: 150px;
+    font-size: 20px;
+    font-family: "Cascadia Code SemiBold";
+    text-align: center;
+    padding-top: 20px;
+}
